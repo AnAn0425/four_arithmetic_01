@@ -10,7 +10,7 @@ int main()
 		while (true) {
 
 				char ch;
-				cout << "½Ð¿é¤J¹Bºâ¦¡: ";
+				cout << "è¼¸å…¥å››å‰‡é‹ç®—: ";
 				cin >> x >> oper >> y;
 				
 				if (oper == '+') {
@@ -24,7 +24,7 @@ int main()
 				}
 				else if (oper == '/') {
 					if (y == 0) {
-						cout << "error, µL¸Ñ!\n";
+						cout << "error, ÂµLÂ¸Ã‘!\n";
 					}
 					else {
 						cout << x << oper << y << "= " << x/y << endl;
